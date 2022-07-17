@@ -1,9 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "./reset.css";
 import Header from "./components/Header";
 import MainCTA from "./components/MainCTA";
 import Events from "./components/Events";
-import WhereToStay from "./components/WhereToStay.js";
+import Accomodations from "./components/Accomodations.js";
 import FAQ from "./components/FAQ";
 import Registry from "./components/Registry";
 
@@ -13,7 +14,7 @@ function App() {
       <Header />
       <MainCTA />
       <Events />
-      <WhereToStay />
+      <Accomodations />
       <FAQ />
       <Registry />
       <header className="App-header">
