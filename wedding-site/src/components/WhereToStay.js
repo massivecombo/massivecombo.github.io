@@ -1,7 +1,5 @@
 const WhereToStay = () => {
-    return (
-        <p>WhereToStay</p>
-    )
-}
+  return <p>WhereToStay</p>;
+};
 
 export default WhereToStay;

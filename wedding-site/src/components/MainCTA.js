@@ -1,7 +1,5 @@
 const MainCTA = () => {
-    return (
-        <p>Main CTA</p>
-    )
-}
+  return <p>Main CTA</p>;
+};
 
 export default MainCTA;
