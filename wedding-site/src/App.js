@@ -1,9 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import MainCTA from './components/MainCTA';
+import Events from './components/Events';
+import WhereToStay from './components/WhereToStay.js';
+import FAQ from './components/FAQ';
+import Registry from './components/Registry';
 
 function App() {
   return (
     <div className="App">
+      <Header/>
+      <MainCTA/>
+      <Events/>
+      <WhereToStay/>
+      <FAQ/>
+      <Registry/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
