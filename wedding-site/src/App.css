@@ -42,3 +42,9 @@
   src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap') format("woff2"),
        url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap") format("woff");
 }
+
+@font-face {
+  font-family: 'Amatic SC', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap') format("woff2"),
+       url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap") format("woff");
+}

@@ -2,11 +2,30 @@
   position: relative;
 }
 
+.MainCTA img {
+  max-width: 100%;
+  filter: brightness(65%) saturate(140%);
+}
+
 .MainCTA-content {
   color: white;
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.MainCTA-content h1, .MainCTA-content span {
+  font-size: 6rem;
+  font-family: 'Amatic SC', cursive;
+}
+
+.MainCTA-content h1, .MainCTA-content h2, .MainCTA-content span {
+  font-family: 'Amatic SC', cursive;
+}
+
+.MainCTA-content h2 {
+  font-weight: 400;
+  font-size: 2.5rem;
 }

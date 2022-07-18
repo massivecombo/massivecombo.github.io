@@ -1,22 +1,25 @@
+import "./Header.css";
+import homelogo from '../components/Logo_Small.png';
+
 const Header = () => {
   return (
-    <div className="Header">
-      <img src="https://placekitten.com/g/100/100" alt="" />
+    <nav className="Header">
+      <img className="Header-logo" src={homelogo} alt="" />
       <ul>
-        <li>
+        <li className="Header-link">
           <a href="#events">Events</a>
         </li>
-        <li>
+        <li className="Header-link">
           <a href="#accomodations">Accomodations</a>
         </li>
-        <li>
+        <li className="Header-link">
           <a href="#faq">FAQ</a>
         </li>
-        <li>
+        <li className="Header-link">
           <a href="#rsvp">RSVP</a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
