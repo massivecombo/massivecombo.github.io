@@ -1,3 +1,5 @@
+import TextHeader from "./base/TextHeader";
+
 const EventData = [
   {
     time: "5:00pm",
@@ -53,7 +55,7 @@ const Events = () => {
   return (
     <div>
       <a id="events" href="events"></a>
-      <h2>Events Of The Day</h2>
+      <TextHeader title="Events Of The Day"/>
       <div className="Events-timeline">
         {EventData.map((e, index) => {
           return (
